@@ -3,6 +3,11 @@ This program is made to querry the specified sensors on your raspberry pi to
 gather measurements and then store those values in the specified database.
 
 # how to use
+
+## installation
+clone this repo on your target raspberry pi. cd into this folder, and install dependancies using the resuirements.txt:
+`pip3 install -r requirements.txt`
+
 ## create the configuration file
 There are two main sections to setup in the configuration file, described below.
 ### database configuration
