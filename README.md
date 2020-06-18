@@ -6,6 +6,7 @@ gather measurements and then store those values in the specified database.
 
 ## installation
 clone this repo on your target raspberry pi. cd into this folder, and install dependancies using the resuirements.txt:
+
 `pip3 install -r requirements.txt`
 
 ## create the configuration file
