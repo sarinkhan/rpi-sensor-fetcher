@@ -48,7 +48,7 @@ def ds18b20_temperature(probeid):
     Given the probe id, it will return the temperature of this specific
     ds18b20.
     """
-    sensor = W1ThermSensor(W1ThermSensor.THERM_SENSOR_DS18B20, probeid)
+    sensor = W1ThermSensor(W1ThermSensor.THERM_SENSOR_DS18B20, str(probeid))
     return sensor.get_temperature()
 
 
